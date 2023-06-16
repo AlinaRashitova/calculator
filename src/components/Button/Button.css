@@ -1,0 +1,46 @@
+.button {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #262834;
+  color: #fff;
+  font-weight: 500;
+}
+
+.button:hover {
+  background-color: rgb(153, 255, 127);
+}
+
+.button:focus,
+.button:active {
+  outline: none;
+}
+
+.button_highlight {
+  background: #308591;
+}
+
+.button_equal {
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+
+.button_plus {
+  grid-row-start: 5;
+  grid-row-end: 7;
+  grid-column-start: 5;
+  grid-column-end: 6;
+}
+
+.span {
+  opacity: .7;
+  font-size: 10px;
+  color: #262834;
+  margin-top: 5px;
+}
